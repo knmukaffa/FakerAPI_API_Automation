@@ -101,4 +101,10 @@ from IDE.
 # Author
 
 Khairun Najmi M
+
 Created for QA Automation Technical Test.
+
+
+# Automation Script Test Run Sample:
+
+https://drive.google.com/file/d/1d3L2IKjora1kPadpBXQ516ww9XB8OsJD/view?usp=drive_link
