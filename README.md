@@ -96,3 +96,9 @@ from IDE.
 # Notes
 
 * Test result and API response will be displayed in console.
+
+
+# Author
+
+Khairun Najmi M
+Created for QA Automation Technical Test.
