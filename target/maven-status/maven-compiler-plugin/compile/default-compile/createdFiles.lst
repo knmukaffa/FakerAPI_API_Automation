@@ -1,0 +1,3 @@
+controller\PersonController.class
+view\PersonView.class
+model\Person.class

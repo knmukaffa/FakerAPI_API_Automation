@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tests.PersonAPITest" time="8.49" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\knmuk\Documents\Khairun\Alfagift Test\FakerAPI_API_Automation\target\test-classes;C:\Users\knmuk\Documents\Khairun\Alfagift Test\FakerAPI_API_Automation\target\classes;C:\Users\knmuk\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\knmuk\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\knmuk\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\knmuk\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\knmuk\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\knmuk\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\knmuk\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\knmuk\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\knmuk\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\knmuk\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\knmuk\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\knmuk\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\knmuk\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\knmuk\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\knmuk\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\knmuk\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\knmuk\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\knmuk\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\knmuk\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Jakarta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.18\bin"/>
+    <property name="sun.java.command" value="C:\Users\knmuk\AppData\Local\Temp\surefire14738748336342704516\surefirebooter-20260523225524358_3.jar C:\Users\knmuk\AppData\Local\Temp\surefire14738748336342704516 2026-05-23T22-55-24_019-jvmRun1 surefire-20260523225524358_1tmp surefire_0-20260523225524358_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\knmuk\Documents\Khairun\Alfagift Test\FakerAPI_API_Automation\target\test-classes;C:\Users\knmuk\Documents\Khairun\Alfagift Test\FakerAPI_API_Automation\target\classes;C:\Users\knmuk\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\knmuk\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\knmuk\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\knmuk\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\knmuk\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\knmuk\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\knmuk\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\knmuk\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\knmuk\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\knmuk\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\knmuk\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\knmuk\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\knmuk\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\knmuk\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\knmuk\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\knmuk\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\knmuk\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\knmuk\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\knmuk\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\knmuk"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.18"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\knmuk\Documents\Khairun\Alfagift Test\FakerAPI_API_Automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\knmuk\AppData\Local\Temp\surefire14738748336342704516\surefirebooter-20260523225524358_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.18+8-LTS-264"/>
+    <property name="user.name" value="knmuk"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\knmuk\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\knmuk\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.18"/>
+    <property name="user.dir" value="C:\Users\knmuk\Documents\Khairun\Alfagift Test\FakerAPI_API_Automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.18\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Apache\maven\apache-maven-3.9.15\bin;C:\Program Files\Java\jdk-17.0.18\bin;C:\Users\knmuk\AppData\Local\Android\Sdk\platform-tools;C:\Users\knmuk\AppData\Local\Android\Sdk\cmdline-tools;C:\Program Files\nodejs\;C:\Users\knmuk\AppData\Local\Android\Sdk\platform-tools;C:\Users\knmuk\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2026.1\bin;C:\Users\knmuk\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.18+8-LTS-264"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="verifyPersonAPI" classname="tests.PersonAPITest" time="7.724">
+    <system-out><![CDATA[
+========== HIT ENDPOINT ==========
+https://fakerapi.it/api/v2/persons?_quantity=10&_gender=male&_birthday_start=1990-01-01&_birthday_end=2000-12-31
+
+========== RESPONSE ==========
+{
+    "status": "OK",
+    "code": 200,
+    "locale": "en_US",
+    "seed": null,
+    "total": 10,
+    "data": [
+        {
+            "id": 1,
+            "firstname": "Justice",
+            "lastname": "Kutch",
+            "email": "darlene97@hansen.com",
+            "phone": "+17812209181",
+            "birthday": "1997-10-28",
+            "gender": "male",
+            "address": {
+                "id": 1,
+                "street": "6229 Reynolds Valley",
+                "streetName": "Koelpin Greens",
+                "buildingNumber": "562",
+                "city": "West Donnyfurt",
+                "zipcode": "60108",
+                "country": "Hungary",
+                "country_code": "HU",
+                "latitude": -35.934597,
+                "longitude": -15.559046
+            },
+            "website": "http://rosenbaum.com",
+            "image": "http://placeimg.com/640/480/people"
+        },
+        {
+            "id": 2,
+            "firstname": "Brandt",
+            "lastname": "Prosacco",
+            "email": "ferry.vern@okeefe.info",
+            "phone": "+13802811429",
+            "birthday": "1991-08-13",
+            "gender": "male",
+            "address": {
+                "id": 1,
+                "street": "578 Halie Knolls Apt. 951",
+                "streetName": "Berge Summit",
+                "buildingNumber": "267",
+                "city": "Welchmouth",
+                "zipcode": "64055",
+                "country": "Togo",
+                "country_code": "TG",
+                "latitude": 70.680662,
+                "longitude": -65.411193
+            },
+            "website": "http://tillman.com",
+            "image": "http://placeimg.com/640/480/people"
+        },
+        {
+            "id": 3,
+            "firstname": "Kenny",
+            "lastname": "Murray",
+            "email": "tamia.rohan@king.info",
+            "phone": "+15807250500",
+            "birthday": "1997-11-15",
+            "gender": "male",
+            "address": {
+                "id": 1,
+                "street": "840 Rippin Circle Apt. 943",
+                "streetName": "Considine Stream",
+                "buildingNumber": "982",
+                "city": "North Lizzie",
+                "zipcode": "35049",
+                "country": "Afghanistan",
+                "country_code": "AF",
+                "latitude": -40.489783,
+                "longitude": 157.397535
+            },
+            "website": "http://farrell.org",
+            "image": "http://placeimg.com/640/480/people"
+        },
+        {
+            "id": 4,
+            "firstname": "Hester",
+            "lastname": "Ernser",
+            "email": "gorczany.sydni@sporer.com",
+            "phone": "+15208276392",
+            "birthday": "1995-09-05",
+            "gender": "male",
+            "address": {
+                "id": 1,
+                "street": "73168 Schimmel Rapid",
+                "streetName": "Dejuan Rest",
+                "buildingNumber": "5572",
+                "city": "Lake Quincyfort",
+                "zipcode": "89142-3867",
+                "country": "Sierra Leone",
+                "country_code": "SL",
+                "latitude": -50.925479,
+                "longitude": 77.952561
+            },
+            "website": "http://morissette.biz",
+            "image": "http://placeimg.com/640/480/people"
+        },
+        {
+            "id": 5,
+            "firstname": "Hershel",
+            "lastname": "Trantow",
+            "email": "kgrant@russel.com",
+            "phone": "+18068924336",
+            "birthday": "1991-10-23",
+            "gender": "male",
+            "address": {
+                "id": 1,
+                "street": "71309 Halvorson Spring",
+                "streetName": "Jerde Tunnel",
+                "buildingNumber": "3509",
+                "city": "Dooleyshire",
+                "zipcode": "72437",
+                "country": "Belgium",
+                "country_code": "BE",
+                "latitude": 29.242447,
+                "longitude": -122.655224
+            },
+            "website": "http://upton.org",
+            "image": "http://placeimg.com/640/480/people"
+        },
+        {
+            "id": 6,
+            "firstname": "Alvah",
+            "lastname": "Watsica",
+            "email": "gutmann.kris@balistreri.org",
+            "phone": "+14843035660",
+            "birthday": "2000-10-24",
+            "gender": "male",
+            "address": {
+                "id": 1,
+                "street": "52925 Zieme Branch Suite 311",
+                "streetName": "Sporer Circle",
+                "buildingNumber": "38206",
+                "city": "Ahmedstad",
+                "zipcode": "14661-1789",
+                "country": "France",
+                "country_code": "FR",
+                "latitude": -69.012204,
+                "longitude": 176.625354
+            },
+            "website": "http://prohaska.com",
+            "image": "http://placeimg.com/640/480/people"
+        },
+        {
+            "id": 7,
+            "firstname": "Moises",
+            "lastname": "Koelpin",
+            "email": "adonis.mosciski@wisoky.com",
+            "phone": "+15307330935",
+            "birthday": "1994-07-13",
+            "gender": "male",
+            "address": {
+                "id": 1,
+                "street": "52224 Fermin Keys",
+                "streetName": "Shields Lights",
+                "buildingNumber": "86836",
+                "city": "Dimitriview",
+                "zipcode": "69092-9213",
+                "country": "Morocco",
+                "country_code": "MA",
+                "latitude": -13.929558,
+                "longitude": -142.900988
+            },
+            "website": "http://boyle.com",
+            "image": "http://placeimg.com/640/480/people"
+        },
+        {
+            "id": 8,
+            "firstname": "Wade",
+            "lastname": "Gerhold",
+            "email": "miller.morris@dooley.com",
+            "phone": "+14309533206",
+            "birthday": "1992-07-17",
+            "gender": "male",
+            "address": {
+                "id": 1,
+                "street": "437 Kovacek Curve",
+                "streetName": "Kris Streets",
+                "buildingNumber": "52405",
+                "city": "Oswaldoton",
+                "zipcode": "10248-3977",
+                "country": "South Africa",
+                "country_code": "ZA",
+                "latitude": -57.438162,
+                "longitude": -17.70021
+            },
+            "website": "http://schiller.com",
+            "image": "http://placeimg.com/640/480/people"
+        },
+        {
+            "id": 9,
+            "firstname": "Gustave",
+            "lastname": "Bruen",
+            "email": "caroline04@marvin.info",
+            "phone": "+16614976228",
+            "birthday": "1996-11-17",
+            "gender": "male",
+            "address": {
+                "id": 1,
+                "street": "576 Auer Rue",
+                "streetName": "Faustino Wells",
+                "buildingNumber": "7547",
+                "city": "East Liamshire",
+                "zipcode": "52050-3219",
+                "country": "Gambia",
+                "country_code": "GM",
+                "latitude": -80.827748,
+                "longitude": -108.334509
+            },
+            "website": "http://green.com",
+            "image": "http://placeimg.com/640/480/people"
+        },
+        {
+            "id": 10,
+            "firstname": "Aiden",
+            "lastname": "O'Connell",
+            "email": "vwalter@hermann.com",
+            "phone": "+15852338519",
+            "birthday": "1990-09-17",
+            "gender": "male",
+            "address": {
+                "id": 1,
+                "street": "17073 Tillman Forks Apt. 588",
+                "streetName": "Halvorson Rapid",
+                "buildingNumber": "8950",
+                "city": "North Carmelo",
+                "zipcode": "47325-5248",
+                "country": "Paraguay",
+                "country_code": "PY",
+                "latitude": -12.790596,
+                "longitude": -163.024832
+            },
+            "website": "http://auer.com",
+            "image": "http://placeimg.com/640/480/people"
+        }
+    ]
+}
+
+========== TEST RESULT ==========
+All validations passed successfully.
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+</testsuite>
